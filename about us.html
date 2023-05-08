@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <title>Nepal Adarsha</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" style="width: 100px; min-height: 100px;" class="logo-of-school"></a>
+            </div>
+            <div class="navbar">
+                <div class="close-nav"><button>×</button></div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about us.html">About</a></li>
+                        <li><a href="course.html" class="active">Courses</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-bar">
+                <button><i></i></button>
+            </div>
+        </div>
+    
+        <div class="text-box">
+            <h1><span class="font-color-change"></span><span class="change_content"></span></h1>
+            <p>Our mission is to provide an exceptional education that empowers our students to achieve their full potential <br>and make a positive impact in the world.</p>
+            <a href="" class="main-btn">Visit Us To know More</a>
+
+        </div>
+
+        <!-- javascript for mobile navbar -->
+        <script>
+            const theBody = document.querySelector('body');
+            const openNav = document.querySelector('.menu-bar button');
+            const closeNav = document.querySelector('.close-nav button');
+            const Navbar = document.querySelector('.navbar');
+            const bodyText = document.querySelector('.text-box');
+    
+             function showHide(){ 
+    
+             Navbar.classList.toggle('show');
+    
+        if (Navbar.classList.contains('show')) {
+    
+            
+            bodyText.style.display = "none";
+        } else {
+    
+            bodyText.style.display = "block";
+        }
+    }
+    
+    openNav.onclick = showHide;
+    closeNav.onclick = showHide;
+          
+        </script>
+
+</header>
+            <section>
+                <div class="content">
+            
+                    <div class="main-font">
+                        <h1>About Us</h1>
+                        <p>Welcome to Nepal Adarsha School/Campus! <br> <br><br>
+                        Our mission is to provide a high-quality, affordable education to students from all walks of life. We believe that education is the key to unlocking opportunities and creating positive change in the world. <br><br>
+                        Nepal Adarsha School was founded in 2054 B.S by a group of educators who were passionate about providing accessible and rigorous higher education. Today, we continue that tradition by offering a wide range of undergraduate and graduate programs in the arts, sciences, and professional fields.<br><br>
+                        Our faculty are experts in their respective fields, and they are committed to helping students succeed both academically and personally. We offer small class sizes, personalized attention, and hands-on learning opportunities to ensure that our students are well-prepared for their future careers.<br><br>
+                        At Nepal Adarsha, we believe that education should be accessible to everyone. We offer a variety of financial aid options, including scholarships, grants, and loans, to help make college more affordable for our students.<br><br>
+                        Our school/college is located at the heart of waling,providing a rich culture and social experience for our students.<br><br><br>
+                        Thank you for considering Nepal Adarsha as your academic home. We look forward to welcoming you to our community of learners!
+            
+            
+                    </p>
+                    
+                    
+                </div>
+            </div>
+            </section>
+            <section class="Teacher-section">
+                <div class="tank">
+                    <div class="topic">
+                <h1>Our School Heads</h1>
+        </div>
+                <div class="card">
+                    <!--1st-->
+                    <div class="teacher-card">
+                        <div class="teacher-img">
+                            <img src="images/principal.jpg" />
+                        </div>
+                        <div class="info">
+                        <h3>Homkanta Gautam</h3>
+                       <p class="role">Principal</p>
+                       <p>Our principal is a dedicated and experienced leader with a passion for education. They are committed to ensuring that every student at our college receives a high-quality education in a supportive and nurturing environment. Under their leadership, our college has become one of the most highly regarded institutions in the region. Come meet our principal and discover what makes our institution so special!</p>
+                    <div class="icon">
+                       <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    </div>
+                    </div>
+                </div>
+                    <!--2nd-->
+                    <div class="teacher-card">
+                        <div class="teacher-img">
+                            <img src="images/vp.jpg" />
+                        </div>
+                        <div class="info">
+                        <h3>Arjun Kandel</h3>
+                        
+                        <p class="role">Vice-Principal</p>
+                        <p>Our vice-principal is a talented and experienced leader who is dedicated to the success of our students. They work closely with our principal and faculty to develop innovative programs that enhance the academic experience of our students. Come meet our vice-principal and discover how they can help you achieve your academic goals.</p>
+                     
+                        <div class="icon">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                             
+                         </a>
+                         <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                         </a>
+                         <a href="#">
+                             <i class="fa-solid fa-phone"></i>
+                         </a>
+                         </div>
+                        </div>
+                    </div>
+                     <!--3rd-->
+                     <div class="teacher-card">
+                        <div class="teacher-img">
+                            <img src="images/admin.jpg" />
+                        </div>
+                        <div class="info">
+                        <h3>Pitamber Poudel</h3>
+                        <p class="role">Administrative-Cheif</p>
+                        <p>Our administrative chief is a highly experienced leader who is responsible for managing the day-to-day operations of our college. They are passionate about providing excellent service to our students, faculty, and staff and ensuring that our college operates at the highest level of efficiency and effectiveness. Come meet our administrative chief and learn more about how they keep our institution running smoothly.</p>
+                        <div class="icon">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                         </a>
+                         <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                         </a>
+                         <a href="#">
+                             <i class="fa-solid fa-phone"></i>
+                         </a>
+                         </div>
+                    </div><i class="fa-solid fa-envelope"></i>
+                    
+                </div>
+                     </div>
+                </div>
+            </section>
+            <section>
+                <div class="location">
+                    <h1>Our Location</h1>
+                     <p>Our school/college is located at the heart of waling,providing a rich culture and social experience for our students.</p><br> <br>
+                    <img src="images/location.png" />
+                </div>
+                </div>
+                
+            </section>
+          
+    
+            <!-------JavaScript for Toggle Menu------->
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                function showMenu(){
+                    navLinks.style.right = "0";  
+                }
+                function hideMenu(){
+                    navLinks.style.right = "-200px";  
+                }
+            
+            </script>
+            <!-- foooter menu -->
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Our institution is driven by a passion for academic excellence and a commitment to providing our students with the knowledge, skills,<br> and experience they need to succeed in their chosen fields. </p>
+            <div class="icons">
+                <a href="https://www.facebook.com/nepalaadarshawaling/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-solid fa-heart"></i> by Class 12 Science</p>
+            </section>
+    </body>
+</html>
