@@ -233,6 +233,10 @@ display: none;
   .college-courses-toggle{
     display: inline-block;
   }
+  .logo-of-school{
+    width: 90px; 
+    min-height: 90px;
+  }
 }
 
 /* course page css */
