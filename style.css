@@ -786,3 +786,6 @@ h3{
     font-size: 20px;
   }
 }
+.show-breaks {
+  display: none;
+}
