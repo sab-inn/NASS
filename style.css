@@ -784,3 +784,8 @@ h3{
     font-size: 20px;
   }
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
